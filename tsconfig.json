@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "./es6",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "./js/**/*.ts",
+        "./inc/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
