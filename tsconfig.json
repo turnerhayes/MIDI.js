@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
         "outDir": "./es6",
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "rootDir": "./js"
     },
     "include": [
         "./js/**/*.ts",
-        "./inc/**/*.ts"
+        // "./inc/**/*.ts"
     ],
     "exclude": [
         "node_modules"

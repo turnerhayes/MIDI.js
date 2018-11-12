@@ -13,17 +13,20 @@
     "type": "git",
     "url": "git://github.com/mudcube/MIDI.js.git"
   },
-  "main": "./lib/midi.js",
+  "main": "./lib/index.js",
   "module": "./es6/",
   "scripts": {
-    "compile": "tsc",
+    "compile": "npm run clean:compile; tsc",
+    "clean:compile": "rimraf ./es6",
+    "clean:build": "rimraf ./lib",
     "compile:watch": "tsc -w",
-    "build": "tsc --outFile ./lib/midi.js --module amd --sourcemap",
+    "build": "npm run clean:build; tsc --outDir ./lib --module umd --sourcemap",
     "tslint": "tslint --project ."
   },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^10.11.7",
+    "rimraf": "^2.6.2",
     "tslint": "^5.11.0",
     "typescript": "^3.1.3"
   },

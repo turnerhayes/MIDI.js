@@ -6,8 +6,8 @@
   ----------------------------------------------------------
 */
 
-import MidiFile from "../../inc/jasmid/midifile";
-import Replayer from "../../inc/jasmid/replayer";
+import MidiFile from "../inc/jasmid/midifile";
+import Replayer from "../inc/jasmid/replayer";
 import GM from "./gm";
 import Loader from "./loader";
 import WebAudio from "./plugin.webaudio";

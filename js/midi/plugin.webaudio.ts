@@ -7,7 +7,7 @@
 */
 
 import Tuna from "tunajs";
-import Base64Binary from "../../inc/shim/Base64binary";
+import Base64Binary from "../inc/shim/Base64binary";
 import GM from "./gm";
 import Loader from "./loader";
 

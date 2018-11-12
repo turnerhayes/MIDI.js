@@ -8,7 +8,7 @@
 */
 exports.__esModule = true;
 var tunajs_1 = require("tunajs");
-var Base64binary_1 = require("../../inc/shim/Base64binary");
+var Base64binary_1 = require("../inc/shim/Base64binary");
 var gm_1 = require("./gm");
 var loader_1 = require("./loader");
 var useStreamingBuffer = false; // !!audioContext.createMediaElementSource;

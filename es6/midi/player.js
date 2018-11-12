@@ -7,8 +7,8 @@
   ----------------------------------------------------------
 */
 exports.__esModule = true;
-var midifile_1 = require("../../inc/jasmid/midifile");
-var replayer_1 = require("../../inc/jasmid/replayer");
+var midifile_1 = require("../inc/jasmid/midifile");
+var replayer_1 = require("../inc/jasmid/replayer");
 var gm_1 = require("./gm");
 var loader_1 = require("./loader");
 var plugin_webaudio_1 = require("./plugin.webaudio");

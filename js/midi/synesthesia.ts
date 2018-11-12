@@ -14,7 +14,7 @@
   ----------------------------------------------------------
 */
 
-import ColorSpace from "../../inc/colorspace";
+import ColorSpace from "../inc/colorspace";
 
 // tslint:disable-next-line:variable-name
 const Synesthesia = {

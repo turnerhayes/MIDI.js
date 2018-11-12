@@ -15,7 +15,7 @@
   ----------------------------------------------------------
 */
 exports.__esModule = true;
-var colorspace_1 = require("../../inc/colorspace");
+var colorspace_1 = require("../inc/colorspace");
 // tslint:disable-next-line:variable-name
 var Synesthesia = {
     // tslint:disable:object-literal-sort-keys
